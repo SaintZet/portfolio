@@ -84,7 +84,7 @@ Passionate about open-source projects and continuous self-development.`,
       dateRange: "2024",
       achievements: [
         "Completed ~24 hours of group-based practical training",
-        "Delivered weekly online lessons (2×45 min) to small groups (up to 3 students)",
+        "Delivered weekly online lessons (2×90 min) to small groups (up to 3 students)",
         "Provided academic mentoring to schoolchildren from frontline regions",
         "Participated in group and individual supervisions with an experienced teacher",
         "Received an official certificate issued by Teach for Ukraine and UNICEF",
