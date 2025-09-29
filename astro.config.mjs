@@ -2,11 +2,11 @@
 import { defineConfig } from "astro/config";
 import tailwindcss from "@tailwindcss/vite";
 
-// https://astro.build/config
 export default defineConfig({
+  site: "https://saintzet.github.io",
+  base: "/portfolio-v2/",
+
   vite: {
-    site: 'https://saintzet.github.io',
-    base: '/portfolio-v2/', 
     plugins: [tailwindcss()],
   },
 });
