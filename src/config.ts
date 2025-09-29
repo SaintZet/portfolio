@@ -6,15 +6,10 @@ export const siteConfig = {
   social: {
     email: "serhii.chepets@gmail.com",
     linkedin: "https://www.linkedin.com/in/serhii-chepets/",
-    // twitter: "https://x.com/rfitzio",
+    twitter: "https://x.com/rfitzio",
     github: "https://github.com/SaintZet",
   },
-  aboutMe: `
-Developer from Ukraine with higher education and commercial experience.
-Strong in problem-solving, teamwork, and communication. 
-Focused on becoming a software architect. 
-Passionate about open-source projects and continuous self-development.
-`,
+  aboutMe: "Lorem Ipsum",
   skills: ["C#", ".NET", "ASP.NET Core", "EF Core", "SQL", "SOLID & Design Patterns", "Git", "CI/CD", "Unit Testing"],
   projects: [
     {
