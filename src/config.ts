@@ -71,7 +71,7 @@ Passionate about open-source projects and continuous self-development.`,
   ],
   education: [
     {
-      school: "Zaporizʹkyy National University",
+      school: "Zaporiz`kyy National University",
       degree: "Bachelor of Science in Computer Science and Information Technology",
       dateRange: "Sept 2016 - June 2020",
       achievements: [
