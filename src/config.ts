@@ -5,6 +5,7 @@ export const siteConfig = {
   accentColor: "#512BD4",
   social: {
     email: "serhii.chepets@gmail.com",
+    telegram: "https://t.me/saint_zett",
     linkedin: "https://www.linkedin.com/in/serhii-chepets/",
     // twitter: "https://x.com/rfitzio",
     github: "https://github.com/SaintZet",
