@@ -1,17 +1,21 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
+  name: "Serhii Chepets",
+  title: "Middle Software Engineer",
+  description: "Portfolio website of Serhii Chepets",
   accentColor: "#1d4ed8",
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "serhii.chepets@gmail.com",
+    linkedin: "https://www.linkedin.com/in/serhii-chepets/",
+    // twitter: "https://x.com/rfitzio",
+    github: "https://github.com/SaintZet",
   },
-  aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+  aboutMe: `
+Developer from Ukraine with higher education and commercial experience.
+Strong in problem-solving, teamwork, and communication. 
+Focused on becoming a software architect. 
+Passionate about open-source projects and continuous self-development.
+`,
+  skills: ["C#", ".NET", "ASP.NET Core", "EF Core", "SQL", "SOLID & Design Patterns", "Git", "CI/CD", "Unit Testing"],
   projects: [
     {
       name: "AI Dev Roundup Newsletter",
