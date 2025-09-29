@@ -6,7 +6,7 @@ export const siteConfig = {
   social: {
     email: "serhii.chepets@gmail.com",
     linkedin: "https://www.linkedin.com/in/serhii-chepets/",
-    twitter: "https://x.com/rfitzio",
+    // twitter: "https://x.com/rfitzio",
     github: "https://github.com/SaintZet",
   },
   aboutMe: "Lorem Ipsum",
