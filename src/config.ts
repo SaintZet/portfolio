@@ -41,7 +41,7 @@ Passionate about open-source projects and continuous self-development.
   ],
   experience: [
     {
-      company: "Tech Company",
+      company: "Plarium",
       title: "Senior Software Engineer",
       dateRange: "Jan 2022 - Present",
       bullets: [
