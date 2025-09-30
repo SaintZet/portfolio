@@ -49,10 +49,10 @@ const certificateTypes = hasCertificates
                 })}
               </div>
             )}
-            <div class="flex gap-6 overflow-x-auto pb-4 snap-x snap-mandatory scrollbar-hide">
+            <div class="flex gap-6 overflow-x-auto pb-4 snap-x snap-mandatory scrollbar-hide min-w-full">
               {siteConfig.certificates.map((certificate, index) => (
                 <div 
-                  class="certificate-card group relative bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-1 flex-shrink-0 w-full md:w-80 snap-start"
+                  class="certificate-card group relative bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-1 flex-shrink-0 w-full md:w-80 md:min-w-80 snap-start"
                   data-type={certificate.type.toLowerCase()}
                 >
                   {/* Preview Image */}
@@ -171,13 +171,17 @@ const certificateTypes = hasCertificates
   .certificate-card {
     opacity: 1;
     transform: translateX(0);
-    transition: opacity 0.3s ease, transform 0.3s ease;
+    transition: opacity 0.3s ease, transform 0.3s ease, width 0.3s ease, margin 0.3s ease;
   }
   
   .certificate-card.hidden {
     opacity: 0;
-    transform: translateX(-20px);
+    width: 0;
+    margin: 0;
+    min-width: 0;
+    transform: scale(0);
     pointer-events: none;
+    overflow: hidden;
   }
   
   .filter-btn.active {
