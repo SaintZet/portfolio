@@ -135,8 +135,8 @@ Passionate about open-source projects and continuous self-development.`,
       ],
     },
     {
-      school: "StudMentor Online Program",
-      degree: "Intensive Training Certificate",
+      school: "StudMentor Program",
+      degree: "Intensive Training",
       dateRange: "2024",
       achievements: [
         "Completed ~24 hours of group-based practical training",
