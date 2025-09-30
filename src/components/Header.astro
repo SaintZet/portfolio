@@ -46,18 +46,6 @@ const hasCertificates = siteConfig.certificates && siteConfig.certificates.lengt
         )
       }
       {
-        hasCertificates && (
-          <li>
-            <a
-              href="#certificates"
-              class="text-gray-700 hover:text-black transition-colors font-medium"
-            >
-              Certificates
-            </a>
-          </li>
-        )
-      }
-      {
         hasProjects && (
           <li>
             <a
@@ -65,6 +53,18 @@ const hasCertificates = siteConfig.certificates && siteConfig.certificates.lengt
               class="text-gray-700 hover:text-black transition-colors font-medium"
             >
               Self Projects
+            </a>
+          </li>
+        )
+      }
+      {
+        hasCertificates && (
+          <li>
+            <a
+              href="#certificates"
+              class="text-gray-700 hover:text-black transition-colors font-medium"
+            >
+              Certificates
             </a>
           </li>
         )
