@@ -4,7 +4,7 @@ import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
   site: "https://saintzet.github.io",
-  base: "/portfolio-v2/",
+  base: "/portfolio/",
 
   vite: {
     plugins: [tailwindcss()],
