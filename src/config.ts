@@ -24,13 +24,13 @@ export const siteConfig = {
       type: "Teaching"
     },
     {
-      name: "Bachelor's Degree Certificate",
-      description: "Bachelor of Science in Computer Science and Information Technology with strong foundation in programming, algorithms, and software development practices.",
-      fileUrl: "/certificates/bachelor-certificate.pdf",
-      previewUrl: "/certificates/bachelor-certificate-preview.jpg",
-      issuer: "Zaporizhzhya National University",
-      date: "2020",
-      type: "Education"
+      name: "Recommendation Letter - Teaching Excellence",
+      description: "Letter of recommendation highlighting exceptional teaching skills, student engagement, and innovative educational approach in programming and computer science courses.",
+      fileUrl: "/certificates/teaching-recommendation.pdf",
+      previewUrl: "/certificates/teaching-recommendation-preview.jpg",
+      issuer: "Academic Department Head",
+      date: "2024",
+      type: "References"
     },
     {
       name: "Software Development Achievement",
@@ -42,13 +42,13 @@ export const siteConfig = {
       type: "Professional"
     },
     {
-      name: "Recommendation Letter - Teaching Excellence",
-      description: "Letter of recommendation highlighting exceptional teaching skills, student engagement, and innovative educational approach in programming and computer science courses.",
-      fileUrl: "/certificates/teaching-recommendation.pdf",
-      previewUrl: "/certificates/teaching-recommendation-preview.jpg",
-      issuer: "Academic Department Head",
-      date: "2024",
-      type: "References"
+      name: "Bachelor's Degree Certificate",
+      description: "Bachelor of Science in Computer Science and Information Technology with strong foundation in programming, algorithms, and software development practices.",
+      fileUrl: "/certificates/bachelor-certificate.pdf",
+      previewUrl: "/certificates/bachelor-certificate-preview.jpg",
+      issuer: "Zaporizhzhya National University",
+      date: "2020",
+      type: "Education"
     }
   ],
   social: {
