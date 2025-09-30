@@ -15,22 +15,31 @@ export const siteConfig = {
       type: "Teaching"
     },
     {
-      name: "StudMentor Training & Teaching Certificate",
+      name: "StudMentor Training Certificate",
       description: "Official certificate for completing intensive training program (~24 hours) and actively teaching schoolchildren from frontline regions. Delivered weekly online lessons (2×90 min) to small groups, providing academic mentoring and educational support as part of UNICEF-supported program.",
       fileUrl: "/certificates/studmentor-certificate.pdf",
       previewUrl: "/certificates/studmentor-certificate-preview.jpg",
       issuer: "Teach for Ukraine & UNICEF",
-      date: "2025",
+      date: "2024",
+      type: "Teaching"
+    },
+    {
+      name: "Bachelor's Degree Certificate",
+      description: "Bachelor of Science in Computer Science and Information Technology with strong foundation in programming, algorithms, and software development practices.",
+      fileUrl: "/certificates/bachelor-certificate.pdf",
+      previewUrl: "/certificates/bachelor-certificate-preview.jpg",
+      issuer: "Zaporizhzhya National University",
+      date: "2020",
       type: "Education"
     },
     {
-      name: "Game Development & Testing Course Certificate",
-      description: "Certificate of Appreciation from NURE for participating in the development and delivery of educational course on Testing of Gaming Applications and Server Solutions for Game Statistics",
-      fileUrl: "/certificates/nure-certificate.pdf",
-      previewUrl: "/certificates/nure-certificate-preview.jpg",
-      issuer: "Kharkiv National University of Radio Electronics",
-      date: "2024",
-      type: "Teaching"
+      name: "Software Development Achievement",
+      description: "Recognition for outstanding contribution to software development projects and technical innovation in game development and enterprise applications.",
+      fileUrl: "/certificates/development-achievement.pdf",
+      previewUrl: "/certificates/development-achievement-preview.jpg",
+      issuer: "Professional Development Board",
+      date: "2023",
+      type: "Professional"
     }
   ],
   social: {
