@@ -17,6 +17,13 @@ Passionate about open-source projects and continuous self-development.`,
   skills: ["C#", ".NET", "ASP.NET Core", "EF Core", "SQL", "SOLID & Design Patterns", "Git", "CI/CD", "Unit Testing"],
   projects: [
     {
+      name: "University Lectures - Game Development & Testing",
+      description:
+        "Teaching practical game development and testing courses at Kharkiv National University of Radio Electronics for 2+ years. Creating educational content and sharing knowledge through YouTube lectures to help students master game development concepts and testing methodologies.",
+      link: "https://youtube.com/playlist?list=PLfOzdlGsYiW9TBFN_SDlN1smxBnrroCxv&si=92wmQ9_PmuKFzI7b",
+      skills: ["Teaching", "Game Development", "Testing", "Educational Content", "YouTube"],
+    },
+    {
       name: "Heuristics for Clean Code",
       description:
         "The goal of the project is to help learn heuristics that will help you write clean code. Use them for the benefit of the community.",
