@@ -21,10 +21,10 @@ const hasCertificates = siteConfig.certificates && siteConfig.certificates.lengt
             </p>
           </div>
 
-          <div class="lg:col-span-8">
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div class="lg:col-span-8 relative">
+            <div class="flex gap-6 overflow-x-auto pb-4 snap-x snap-mandatory scrollbar-hide">
               {siteConfig.certificates.map((certificate, index) => (
-                <div class="group relative bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
+                <div class="group relative bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-1 flex-shrink-0 w-full md:w-80 snap-start">
                   {/* Preview Image */}
                   {certificate.previewUrl && (
                     <div class="aspect-[4/3] bg-gray-100 overflow-hidden">
@@ -99,3 +99,41 @@ const hasCertificates = siteConfig.certificates && siteConfig.certificates.lengt
     </section>
   )
 }
+
+<style>
+  /* Hide scrollbar for Webkit browsers */
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for Firefox */
+  .scrollbar-hide {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  
+  /* Smooth scrolling behavior */
+  .overflow-x-auto {
+    scroll-behavior: smooth;
+  }
+  
+  /* Add some visual indication for scrollability on larger screens */
+  @media (min-width: 768px) {
+    .overflow-x-auto::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 20px;
+      height: 100%;
+      background: linear-gradient(to left, rgba(249, 250, 251, 0.8), transparent);
+      pointer-events: none;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+    
+    .overflow-x-auto:hover::after {
+      opacity: 1;
+    }
+  }
+</style>

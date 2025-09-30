@@ -15,13 +15,22 @@ export const siteConfig = {
       type: "Teaching"
     },
     {
-      name: "StudMentor Training Certificate",
-      description: "Official certificate for completing intensive training program and providing academic mentoring to schoolchildren from frontline regions",
+      name: "StudMentor Training & Teaching Certificate",
+      description: "Official certificate for completing intensive training program (~24 hours) and actively teaching schoolchildren from frontline regions. Delivered weekly online lessons (2×90 min) to small groups, providing academic mentoring and educational support as part of UNICEF-supported program.",
       fileUrl: "/certificates/studmentor-certificate.pdf",
       previewUrl: "/certificates/studmentor-certificate-preview.jpg",
       issuer: "Teach for Ukraine & UNICEF",
-      date: "2024",
+      date: "2025",
       type: "Education"
+    },
+    {
+      name: "Game Development & Testing Course Certificate",
+      description: "Certificate of Appreciation from NURE for participating in the development and delivery of educational course on Testing of Gaming Applications and Server Solutions for Game Statistics",
+      fileUrl: "/certificates/nure-certificate.pdf",
+      previewUrl: "/certificates/nure-certificate-preview.jpg",
+      issuer: "Kharkiv National University of Radio Electronics",
+      date: "2024",
+      type: "Teaching"
     }
   ],
   social: {
