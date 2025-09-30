@@ -4,6 +4,26 @@ export const siteConfig = {
   description: "Portfolio website of Serhii Chepets",
   accentColor: "#512BD4",
   resumeUrl: "/resume.pdf", // Add your resume file to the public folder
+  certificates: [
+    {
+      name: "Game Development & Testing Course Certificate",
+      description: "Certificate of Appreciation from NURE for participating in the development and delivery of educational course on Testing of Gaming Applications and Server Solutions for Game Statistics",
+      fileUrl: "/certificates/nure-certificate.pdf",
+      previewUrl: "/certificates/nure-certificate-preview.jpg",
+      issuer: "Kharkiv National University of Radio Electronics",
+      date: "2025",
+      type: "Teaching"
+    },
+    {
+      name: "StudMentor Training Certificate",
+      description: "Official certificate for completing intensive training program and providing academic mentoring to schoolchildren from frontline regions",
+      fileUrl: "/certificates/studmentor-certificate.pdf",
+      previewUrl: "/certificates/studmentor-certificate-preview.jpg",
+      issuer: "Teach for Ukraine & UNICEF",
+      date: "2024",
+      type: "Education"
+    }
+  ],
   social: {
     email: "serhii.chepets@gmail.com",
     telegram: "https://t.me/saint_zett",

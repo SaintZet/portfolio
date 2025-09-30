@@ -1,0 +1,101 @@
+---
+import { siteConfig } from "../config";
+const hasCertificates = siteConfig.certificates && siteConfig.certificates.length > 0;
+---
+
+{
+  hasCertificates && (
+    <section id="certificates" class="p-8 sm:p-12 md:p-16 lg:p-24 bg-gray-50">
+      <div>
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
+          <div class="lg:col-span-4">
+            <h2 class="text-3xl sm:text-4xl md:text-5xl xl:text-7xl font-bold text-gray-900">
+              Certificates
+            </h2>
+            <div
+              class="w-[75px] h-[5px] mt-2 rounded-full"
+              style={`background-color: ${siteConfig.accentColor}`}
+            />
+            <p class="text-gray-600 mt-4 text-lg">
+              Professional certifications and recognitions
+            </p>
+          </div>
+
+          <div class="lg:col-span-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+              {siteConfig.certificates.map((certificate, index) => (
+                <div class="group relative bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
+                  {/* Preview Image */}
+                  {certificate.previewUrl && (
+                    <div class="aspect-[4/3] bg-gray-100 overflow-hidden">
+                      <img 
+                        src={certificate.previewUrl} 
+                        alt={`${certificate.name} preview`}
+                        class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                        loading="lazy"
+                      />
+                    </div>
+                  )}
+                  
+                  <div class="p-6">
+                    <div class="flex items-start justify-between mb-3">
+                      <div class="flex-1">
+                        <div class="flex items-center gap-2 mb-2">
+                          <span
+                            class="px-2 py-1 text-xs font-medium rounded-md"
+                            style={`background-color: ${siteConfig.accentColor}20; color: ${siteConfig.accentColor}`}
+                          >
+                            {certificate.type}
+                          </span>
+                          <span class="text-sm text-gray-500">{certificate.date}</span>
+                        </div>
+                        <h3 class="text-lg font-bold text-gray-900 mb-2">
+                          {certificate.name}
+                        </h3>
+                        <p class="text-sm text-gray-600 mb-3">
+                          {certificate.description}
+                        </p>
+                        <p class="text-sm font-medium text-gray-700">
+                          {certificate.issuer}
+                        </p>
+                      </div>
+                    </div>
+                    
+                    {/* Download Button */}
+                    {certificate.fileUrl && (
+                      <div class="mt-4 pt-4 border-t border-gray-100">
+                        <a
+                          href={certificate.fileUrl}
+                          download={`${certificate.name.replace(/\s+/g, '_')}.pdf`}
+                          class="inline-flex items-center gap-2 px-4 py-2 bg-gray-900 hover:bg-gray-800 text-white text-sm font-medium rounded-lg transition-all duration-300 hover:shadow-md"
+                        >
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="w-4 h-4"
+                          >
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                            <polyline points="7,10 12,15 17,10"/>
+                            <line x1="12" y1="15" x2="12" y2="3"/>
+                          </svg>
+                          Download Certificate
+                        </a>
+                      </div>
+                    )}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  )
+}
