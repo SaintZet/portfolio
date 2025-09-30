@@ -40,6 +40,15 @@ export const siteConfig = {
       issuer: "Professional Development Board",
       date: "2023",
       type: "Professional"
+    },
+    {
+      name: "Recommendation Letter - Teaching Excellence",
+      description: "Letter of recommendation highlighting exceptional teaching skills, student engagement, and innovative educational approach in programming and computer science courses.",
+      fileUrl: "/certificates/teaching-recommendation.pdf",
+      previewUrl: "/certificates/teaching-recommendation-preview.jpg",
+      issuer: "Academic Department Head",
+      date: "2024",
+      type: "References"
     }
   ],
   social: {
