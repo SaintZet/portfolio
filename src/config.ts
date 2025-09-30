@@ -3,7 +3,7 @@ export const siteConfig = {
   title: "Middle Software Engineer",
   description: "Portfolio website of Serhii Chepets",
   accentColor: "#512BD4",
-  resumeUrl: "/resume.pdf", // Add your resume file to the public folder
+  resumeUrl: "portfolio/resume.pdf",
   certificates: [
     {
       name: "Game Development & Testing Course Certificate",
