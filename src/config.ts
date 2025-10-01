@@ -6,10 +6,10 @@ export const siteConfig = {
   resumeUrl: "/portfolio/resume.pdf",
   certificates: [
     {
-      name: "Game Development & Testing Course Certificate",
+      name: "Game Development And Testing Course Certificate 2025",
       description: "Certificate of Appreciation from NURE for contributing to the development and delivery of the educational course 'Testing of Gaming Applications and Server Solutions for Game Statistics'.",
-      fileUrl: "/portfolio/certificates/nure-certificate.pdf",
-      previewUrl: "/portfolio/certificates/nure-certificate-preview.jpg",
+      fileUrl: "/portfolio/certificates/nure-certificate-2025.pdf",
+      previewUrl: "/portfolio/certificates/nure-certificate-2025-preview.jpg",
       issuer: "Kharkiv National University of Radio Electronics",
       date: "2025",
       type: "Teaching"
@@ -33,10 +33,10 @@ export const siteConfig = {
       type: "References"
     },
     {
-      name: "Game Development & Testing Course Certificate",
+      name: "Game Development And Testing Course Certificate 2024",
       description: "Certificate of Appreciation from NURE for contributing to the development and delivery of the educational course 'Testing of Gaming Applications and Server Solutions for Game Statistics'.",
-      fileUrl: "/portfolio/certificates/nure-certificate.pdf",
-      previewUrl: "/portfolio/certificates/nure-certificate-preview.jpg",
+      fileUrl: "/portfolio/certificates/nure-certificate-2024.pdf",
+      previewUrl: "/portfolio/certificates/nure-certificate-2024-preview.jpg",
       issuer: "Kharkiv National University of Radio Electronics",
       date: "2024",
       type: "Teaching"
