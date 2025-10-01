@@ -58,37 +58,43 @@ export const siteConfig = {
     // twitter: "https://x.com/rfitzio",
     github: "https://github.com/SaintZet",
   },
-  aboutMe: `Developer from Ukraine with higher education and commercial experience.
-Strong in problem-solving, teamwork, and communication.
-Focused on becoming a software architect.
-Passionate about open-source projects and continuous self-development.`,
-  skills: ["C#", ".NET", "ASP.NET Core", "EF Core", "SQL", "SOLID & Design Patterns", "Git", "CI/CD", "Unit Testing"],
+  aboutMe: `I am a dedicated Software Developer from Ukraine with a strong academic background and proven experience in delivering modern, high-quality web applications. My primary expertise lies in the .NET ecosystem, where I focus on building reliable, scalable, and maintainable solutions.
+
+I am highly valued for problem-solving, teamwork, and clear communication. I enjoy mentoring junior developers, sharing knowledge, and fostering effective collaboration.
+
+My long-term ambition is to grow into a Team Lead role, where I can drive technical excellence, guide a team, and help deliver impactful solutions.`,
+  skills: ["C# / .NET / .NET Core / ASP.NET Core", "Entity Framework Core, LINQ", "SQL (MSSQL, MySQL, SQLite)", "REST API", 
+    "OOP Principles & Best Practices", "SOLID Principles", "Design Patterns", "Clean Architecture", 
+    "Unit Testing", "Git", "CI/CD", 
+    "Strong Problem-Solving", "Team Collaboration & Communication", "Mentoring & Knowledge Sharing", "Continuous Self-Development"],
   projects: [
     {
       name: "University Lectures - Game Development & Testing",
-      description:
-        "Teaching practical game development and testing courses at Kharkiv National University of Radio Electronics for 2+ years. Creating educational content and sharing knowledge through YouTube lectures to help students master game development concepts and testing methodologies.",
+      description: `Teaching practical game development and testing courses at Kharkiv National University of Radio Electronics for 2+ years. 
+      Creating educational content and sharing knowledge through YouTube lectures to help students master game development concepts and testing methodologies.`,
       link: "https://youtube.com/playlist?list=PLfOzdlGsYiW9TBFN_SDlN1smxBnrroCxv&si=92wmQ9_PmuKFzI7b",
       skills: ["Teaching", "Game Development", "Testing", "Educational Content", "YouTube"],
     },
     {
       name: "Heuristics for Clean Code",
       description:
-        "The goal of the project is to help learn heuristics that will help you write clean code. Use them for the benefit of the community.",
+        `The goal of the project is to help learn heuristics that will help you write clean code. Use them for the benefit of the community.`,
       link: "https://github.com/SaintZet/HeuristicsForCleanCode",
       skills: ["Clean Code", "Heuristic Rules", "GitHub Wiki"],
     },
     {
       name: "DayZ Map Loader",
       description:
-        "Project is to allow users to download maps for the game DayZ from two different map providers. The downloaded maps are of high quality. Also, personal library of knowledge.",
+        `Project is to allow users to download maps for the game DayZ from two different map providers. The downloaded maps are of high quality. 
+        
+        Also, personal library of knowledge.`,
       link: "https://fullstackextensions.com/?ref=devportfolio",
       skills: [".NET", "Sql Server", "Clean Architecture", "REST API"],
     },
   ],
   experience: [
     {
-      company: "Plarium LLC",
+      company: "Plarium LLC (Raid: Shadow Legends)",
       title: "Middle Software Engineer",
       dateRange: "March 2023 - Present",
       bullets: [
@@ -100,8 +106,8 @@ Passionate about open-source projects and continuous self-development.`,
       ],
     },
     {
-      company: "Private Tutor ",
-      title: "Programming, C#",
+      company: "Self-Employment",
+      title: "Private Programming Tutor",
       dateRange: "February 2025 - Present",
       bullets: [
         "Taught C# programming and computer science fundamentals to school and college students, building a strong foundation for future IT careers.",
