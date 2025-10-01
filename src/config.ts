@@ -7,46 +7,46 @@ export const siteConfig = {
   certificates: [
     {
       name: "Game Development & Testing Course Certificate",
-      description: "Certificate of Appreciation from NURE for participating in the development and delivery of educational course on Testing of Gaming Applications and Server Solutions for Game Statistics",
-      fileUrl: "/certificates/nure-certificate.pdf",
-      previewUrl: "/certificates/nure-certificate-preview.jpg",
+      description: "Certificate of Appreciation from NURE for contributing to the development and delivery of the educational course 'Testing of Gaming Applications and Server Solutions for Game Statistics'.",
+      fileUrl: "/portfolio/certificates/nure-certificate.pdf",
+      previewUrl: "/portfolio/certificates/nure-certificate-preview.jpg",
       issuer: "Kharkiv National University of Radio Electronics",
       date: "2025",
       type: "Teaching"
     },
     {
       name: "StudMentor Training Certificate",
-      description: "Official certificate for completing intensive training program (~24 hours) and actively teaching schoolchildren from frontline regions. Delivered weekly online lessons (2×90 min) to small groups, providing academic mentoring and educational support as part of UNICEF-supported program.",
-      fileUrl: "/certificates/studmentor-certificate.pdf",
-      previewUrl: "/certificates/studmentor-certificate-preview.jpg",
-      issuer: "Teach for Ukraine & UNICEF",
-      date: "2024",
+      description: "Certificate confirming completion of the StudMentor program (45 hours total: 24h coursework, 16h teaching practice, 8 weeks supervision). Focused on mentoring schoolchildren from frontline regions, improving academic support, and developing innovative teaching skills. Organized by Teach for Ukraine with UNICEF and GPE support.",
+      fileUrl: "/portfolio/certificates/studmentor-certificate.pdf",
+      previewUrl: "/portfolio/certificates/studmentor-certificate-preview.jpg",
+      issuer: "Teach for Ukraine, UNICEF & GPE",
+      date: "2025-02-07",
       type: "Teaching"
     },
     {
-      name: "Recommendation Letter - Teaching Excellence",
-      description: "Letter of recommendation highlighting exceptional teaching skills, student engagement, and innovative educational approach in programming and computer science courses.",
-      fileUrl: "/certificates/teaching-recommendation.pdf",
-      previewUrl: "/certificates/teaching-recommendation-preview.jpg",
-      issuer: "Academic Department Head",
+      name: "Recommendation Letter - Teach For Ukraine",
+      description: "Letter of recommendation from NGO Teach For Ukraine recognizing exceptional mentorship in informatics, effective teaching methods, and strong student engagement during the StudMentor program.",
+      fileUrl: "/portfolio/certificates/teaching-recommendation.pdf",
+      previewUrl: "/portfolio/certificates/teaching-recommendation-preview.jpg",
+      issuer: "NGO Teach For Ukraine (Senior Mentor: Daria Lohvynenko)",
       date: "2024",
       type: "References"
     },
     {
-      name: "Software Development Achievement",
-      description: "Recognition for outstanding contribution to software development projects and technical innovation in game development and enterprise applications.",
-      fileUrl: "/certificates/development-achievement.pdf",
-      previewUrl: "/certificates/development-achievement-preview.jpg",
-      issuer: "Professional Development Board",
-      date: "2023",
-      type: "Professional"
+      name: "Game Development & Testing Course Certificate",
+      description: "Certificate of Appreciation from NURE for contributing to the development and delivery of the educational course 'Testing of Gaming Applications and Server Solutions for Game Statistics'.",
+      fileUrl: "/portfolio/certificates/nure-certificate.pdf",
+      previewUrl: "/portfolio/certificates/nure-certificate-preview.jpg",
+      issuer: "Kharkiv National University of Radio Electronics",
+      date: "2024",
+      type: "Teaching"
     },
     {
       name: "Bachelor's Degree Certificate",
-      description: "Bachelor of Science in Computer Science and Information Technology with strong foundation in programming, algorithms, and software development practices.",
-      fileUrl: "/certificates/bachelor-certificate.pdf",
-      previewUrl: "/certificates/bachelor-certificate-preview.jpg",
-      issuer: "Zaporizhzhya National University",
+      description: "Bachelor's Diploma in Computer Science and Information Technology with professional qualification as Teacher of Computer Science, awarded by Zaporizhzhia National University.",
+      fileUrl: "/portfolio/certificates/bachelor-certificate.pdf",
+      previewUrl: "/portfolio/certificates/bachelor-certificate-preview.jpg",
+      issuer: "Zaporizhzhia National University",
       date: "2020",
       type: "Education"
     }
